@@ -7,21 +7,73 @@
   text-align: center;
 }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#header-fix {
+  position: fixed;
+}
+
 .ul {
   text-align: right;
+}
+/* Consider  */
+#nav-item {
+  margin: 15px;
 }
 
 #nav-1 {
   background-color: aqua;
   display: inline;
+  border: 2px solid black;
 }
 
 #nav-2 {
   background-color: lightcoral;
   display: inline;
+  border: 2px solid black;
 }
 
 #nav-3 {
   background-color: lightgreen;
   display: inline;
+  border: 2px solid black;
+}
+
+/* Begin copied example, edit this to what I need */
+input[type=text], select, textarea {
+  width: 95%; 
+  padding: 12px; 
+  border: 1px solid blue; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 10px; 
+  resize: vertical;
+}
+
+/* Button colors and such */
+input[type=submit] {
+  background-color: blueviolet;
+  color: rgb(229, 227, 227);
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover color */
+input[type=submit]:hover {
+  background-color: rgb(215, 103, 215);
+}
+
+/* Whole area background color */
+.container {
+  border-radius: 5px;
+  background-color: blueviolet;
+  padding: 20px;
 }

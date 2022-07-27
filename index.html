@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Change this name -->
     <title>About Nicholas Bales</title>
 
     <body class="body">
       <header>
-        <!-- Change this name -->
-        <h1 class="center">About Me</h1>
+        <h1 class="center">The alright-ish life of Nicholas Bales</h1>
         <nav>
-          <ul class="ul">
+          <ul class="ul" id="nav-item">
             <li id="nav-1">My story</li>
             <li id="nav-2">My hobbies</li>
             <li id="nav-3">Reach me!</li>
           </ul>
         </nav>
+        <img class="img-center" src="./assets/images/webcam-toy-photo3.jpg">
       </header>
+
+      <section>
+        <h2 class="center">My story</h2>
+        <!-- Add content -->
+        <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat aut cupiditate rerum vel ab explicabo saepe modi sequi fuga, praesentium architecto corporis eveniet distinctio velit rem. Officia tempore explicabo nemo.</p>
+      </section>
+
+      <section>
+        <h2 class="center">My hobbies</h2>
+        <!-- Add content -->
+        <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nobis autem ad voluptatum a rerum quis veniam tempore. Explicabo quae pariatur error dolore aliquam distinctio perspiciatis facilis a aut temporibus?</p>
+      </section>
+
+      <section>
+        <h2 class="center">Reach me!</h2>
+        <!-- Add content -->
+        <figure class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Email address</label>
+            <input type="text" id="email" name="email" placeholder="Email address...">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </figure>
+      </section>
 
 
     </body>
