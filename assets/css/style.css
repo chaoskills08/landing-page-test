@@ -1,0 +1,27 @@
+
+.body {
+  background-color: blueviolet
+}
+
+.center {
+  text-align: center;
+}
+
+.ul {
+  text-align: right;
+}
+
+#nav-1 {
+  background-color: aqua;
+  display: inline;
+}
+
+#nav-2 {
+  background-color: lightcoral;
+  display: inline;
+}
+
+#nav-3 {
+  background-color: lightgreen;
+  display: inline;
+}
